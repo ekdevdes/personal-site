@@ -1,0 +1,12 @@
+:root {
+	--grey: #f6f6f6;
+	--black: #000;
+}
+
+html, 
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	background-color: var(--grey);
+}
