@@ -1,8 +1,9 @@
 import MainLayout from '../layouts/Main'
+import Top from '../components/Top'
 
 const Home = () => (
   <MainLayout>
-    <p>Home Page</p>
+    <Top />
   </MainLayout>
 )
 

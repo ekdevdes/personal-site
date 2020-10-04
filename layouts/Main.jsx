@@ -11,8 +11,4 @@ const Main = ({ children }) => (
   </>
 )
 
-Main.propTypes = {
-  children: node.isRequired
-}
-
 export default Main
