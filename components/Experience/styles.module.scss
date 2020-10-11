@@ -1,0 +1,19 @@
+.employer {
+  font-weight: 700;
+
+  span:first-child {
+    border-bottom: 1px solid var(--black);
+    margin-right: 10px;
+  }
+
+  span:last-child {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+
+.position {
+  font-weight: 400;
+  margin: 0 0 25px 0;
+}

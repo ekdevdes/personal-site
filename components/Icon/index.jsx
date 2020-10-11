@@ -1,27 +1,9 @@
-import CodePenIcon from '../../public/codepen-icon.svg'
-import GithubIcon from '../../public/github-icon.svg'
-import LinkedInIcon from '../../public/linkedin-icon.svg'
-import DownloadIcon from '../../public/download-icon.svg'
+import cn from 'classnames'
 
-const Icon = ({ name }) => {
-  const getIcon = () => {
-    switch (name) {
-      case "codepen":
-        return <CodePenIcon />
-      
-      case "github":
-          return <GithubIcon />
-      
-      case "linkedin":
-          return <LinkedInIcon />
-  
-      case "download":
-      default:
-        return <DownloadIcon />
-    }
-  }
+import styles from './styles.module.scss'
 
-  return getIcon()
-}
+const Icon = ({ name, className }) => (
+  <img src={`${name}.svg`} className={cn(styles.img, className)} alt={`${name} icon`} />
+)
 
 export default Icon

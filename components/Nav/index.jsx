@@ -1,13 +1,13 @@
 import cn from 'classnames'
-import Icon from '../Icon'
+import SocialLinks from '../SocialLinks'
 
 import styles from './styles.module.scss'
 
-const Top = () => (
+const Nav = () => (
   <header className={styles.header}>
     <h1 className={cn("f-raleway", styles.text)}>Ethan Kramer</h1>
-    <Icon name="codepen" />
+    <SocialLinks />
   </header>
 )
 
-export default Top
+export default Nav
