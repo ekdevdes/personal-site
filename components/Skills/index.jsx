@@ -14,11 +14,19 @@ const Skills = () => {
     'HTML',
     'CSS',
     'JS',
+    'HTML',
+    'CSS',
+    'JS',
+    'HTML',
+    'CSS',
+    'JS',
+    'HTML',
+    'CSS',
   ]
 
   return <div className={styles.container}>
-    {skillList.map(s => (
-      <p className={styles.skill}>{s}</p>
+    {skillList.map((skill, i) => (
+      <p className={styles.skill} key={i}>{skill}</p>
     ))}
   </div>
 }
