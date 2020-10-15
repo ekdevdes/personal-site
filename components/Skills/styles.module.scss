@@ -4,11 +4,16 @@
 .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
   text-align: center;
+  font-size: 14px;
+
+  @include mq($sm) {
+    text-align: left;
+  }
 
   @include mq($md) {
     grid-template-columns: repeat(3, 1fr);
-    text-align: left;
   }
 
   @include mq($xlg) {
