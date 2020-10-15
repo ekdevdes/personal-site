@@ -6,7 +6,6 @@
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1.2rem;
   text-align: center;
-  font-size: 0.9rem;
 
   @include mq($sm) {
     text-align: left;

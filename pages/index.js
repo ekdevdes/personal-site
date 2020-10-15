@@ -15,18 +15,33 @@ const Home = () => (
       <InfoSection header="Experience">
         <Experience 
           employer="Red Ventures"
-          startDate="Aug. 2017"
+          employerSite="https://redventures.com/"
+          startDate="Aug. 2019"
           endDate="Current"
           position="Sr. Front End Developer" />
         <Experience 
-          employer="Netplus Marketing"
+          employer="Red Ventures"
+          employerSite="https://redventures.com/"
+          startDate="Aug. 2017"
+          endDate="Aug. 2019"
+          position="Front End Developer" />
+        <Experience 
+          employer="Netplus Marketing (Pavone)"
+          employerSite="http://netplus.agency"
           startDate="Feb. 2016"
-          endDate="July 2017"
+          endDate="Jul. 2017"
           position="Web Developer" />
         <Experience 
-          employer="Leadnomics"
+          employer="Brownstein Group"
+          employerSite="https://www.brownsteingroup.com/"
           startDate="Jul. 2015"
           endDate="Dec. 2015"
+          position="Front End Developer, Contract" />
+        <Experience 
+          employer="Leadnomics"
+          employerSite="https://www.leadnomics.com/"
+          startDate="Jun. 2014"
+          endDate="Aug. 2014"
           position="Software Engineer Intern" />
       </InfoSection>
       <InfoSection header="Skills">

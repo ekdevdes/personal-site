@@ -12,6 +12,7 @@ const skillList = [
   'VueX',
   'Mocha',
   'Webpack',
+  'ESLint/Prettier',
   'GraphQL',
   'Go',
   'C++',
@@ -22,7 +23,9 @@ const skillList = [
   'Firebase',
   'MySQL',
   'Git',
+  'Mercurial',
   'CircleCI',
+  'Jenkins',
   'Docker'
 ]
 
