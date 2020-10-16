@@ -4,6 +4,15 @@
 .iconContainer {
   display: none;
   align-items: center;
+
+  &.showIcons {
+    display: block;
+    margin: 1rem 2.5rem;
+
+    @include mq($md) {
+      display: none;
+    }
+  }
   
   @include mq($md) {
     margin-left: auto;

@@ -1,9 +1,12 @@
+import cn from 'classnames'
 import Icon from '../Icon'
 
 import styles from './styles.module.scss'
 
-const SocialLinks = () => (
-  <div className={styles.iconContainer}>
+const SocialLinks = ({ showIcons = false }) => (
+  <div className={cn(styles.iconContainer, {
+    [styles.showIcons]: showIcons
+  })}>
     <a href="https://www.linkedin.com/in/ethankr/" target="_blank" rel="noopener" aria-label="LinkedIn">
       <Icon name="linkedin" />
     </a>

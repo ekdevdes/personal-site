@@ -1,9 +1,12 @@
+import cn from 'classnames'
+
 import MainLayout from '../layouts/Main'
 import Nav from '../components/Nav'
 import Hero from '../components/Hero'
 import InfoSection from '../components/InfoSection'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
+import SocialLinks from '../components/SocialLinks'
 
 import styles from './styles.module.scss'
 
@@ -12,7 +15,7 @@ const Home = () => (
     <Nav />
     <Hero />
     <div className={styles.contentContainer}>
-      <InfoSection header="Experience">
+      <InfoSection header="Experience" className={styles.infoSection}>
         <Experience 
           employer="Red Ventures"
           employerSite="https://redventures.com/"
@@ -44,9 +47,13 @@ const Home = () => (
           endDate="Aug. 2014"
           position="Software Engineer Intern" />
       </InfoSection>
-      <InfoSection header="Skills">
+      <SocialLinks showIcons />
+      <InfoSection header="Skills" className={cn(styles.infoSection, styles.skillsContainer)}>
         <Skills />
       </InfoSection>
+      <div className={styles.socialContainer}>
+        <SocialLinks showIcons />
+      </div>
     </div>
   </MainLayout>
 )

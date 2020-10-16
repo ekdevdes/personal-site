@@ -1,5 +1,5 @@
 @import '../../styles/vars';
-@import '../../styles/mixins.scss';
+@import '../../styles/mixins';
 
 .container {
   display: grid;
@@ -11,7 +11,7 @@
     text-align: left;
   }
 
-  @include mq($md) {
+  @include mq($nineNinetyTwo) {
     grid-template-columns: repeat(3, 1fr);
   }
 
