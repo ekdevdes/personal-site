@@ -9,7 +9,7 @@
     flex-direction: row;
   }
 
-  @include mq($lg) {
+  @include mq($xlg) {
     margin-bottom: 2.7rem;
   }
 
@@ -27,7 +27,7 @@
     }
   }
 
-  @include mq($xlg) {
+  @include mq($xxlg) {
     .infoSection:first-child {
       width: 90%;
     }
