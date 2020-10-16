@@ -34,3 +34,18 @@
     font-size: 1.5rem;
   }
 }
+
+.about {
+  width: 85%;
+  text-align: center;
+  line-height: 1.4;
+  margin-top: 0;
+
+  @include mq($lg) {
+    width: 65%;
+  }
+
+  @include mq($xxlg) {
+    width: 50%;
+  }
+}
