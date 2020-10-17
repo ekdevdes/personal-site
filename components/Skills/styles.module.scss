@@ -13,6 +13,7 @@
 
   @include mq($lg) {
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
   }
 
   @include mq($xxlg) {
