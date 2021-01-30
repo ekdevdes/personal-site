@@ -4,6 +4,11 @@
 .iconContainer {
   display: none;
   align-items: center;
+  text-align: center;
+
+  @include mq(375px) {
+    text-align: left;
+  }
 
   &.showIcons {
     display: block;

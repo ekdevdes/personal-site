@@ -2,9 +2,13 @@
 @import '../../styles/mixins';
 
 .container {
-  margin: 3.75rem 2.5rem;  
+  margin: 2rem 2.5rem;
 
-  @include mq($md) {
+  @include mq($sm) {
+    margin: 3.75rem 2.5rem; 
+  }
+
+  @include mq($lg) {
     margin: 7.2rem 5rem 1.9rem 5rem;
   }
 }
