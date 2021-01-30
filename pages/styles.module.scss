@@ -50,3 +50,19 @@
     text-align: left;
   }
 }
+
+.header {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 1.9rem;
+
+  @include mq($sm) {
+    text-align: left;
+  }
+}
+
+.experienceContainer {
+  margin-bottom: 4rem;
+}

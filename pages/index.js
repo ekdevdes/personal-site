@@ -16,36 +16,51 @@ const Home = () => (
     <Hero />
     <div className={styles.contentContainer}>
       <InfoSection header="Experience" className={styles.infoSection}>
-        <Experience 
-          employer="Red Ventures"
-          employerSite="https://redventures.com/"
-          startDate="Aug. 2019"
-          endDate="Current"
-          position="Sr. Front End Developer" />
-        <Experience 
-          employer="Red Ventures"
-          employerSite="https://redventures.com/"
-          startDate="Aug. 2017"
-          endDate="Aug. 2019"
-          position="Front End Developer" />
-        <Experience 
-          employer="Netplus Marketing (Pavone)"
-          employerSite="http://netplus.agency"
-          startDate="Feb. 2016"
-          endDate="Jul. 2017"
-          position="Web Developer" />
-        <Experience 
-          employer="Brownstein Group"
-          employerSite="https://www.brownsteingroup.com/"
-          startDate="Jul. 2015"
-          endDate="Dec. 2015"
-          position="Front End Developer, Contract" />
-        <Experience 
-          employer="Leadnomics"
-          employerSite="https://www.leadnomics.com/"
-          startDate="Jun. 2014"
-          endDate="Aug. 2014"
-          position="Software Engineer Intern" />
+        <div className={styles.experienceContainer}>
+          <Experience 
+            employer="Red Ventures"
+            employerSite="https://redventures.com/"
+            startDate="Aug. 2019"
+            endDate="Current"
+            position="Sr. Front End Developer" />
+          <Experience 
+            employer="Red Ventures"
+            employerSite="https://redventures.com/"
+            startDate="Aug. 2017"
+            endDate="Aug. 2019"
+            position="Front End Developer" />
+          <Experience 
+            employer="Netplus Marketing (Pavone)"
+            employerSite="http://netplus.agency"
+            startDate="Feb. 2016"
+            endDate="Jul. 2017"
+            position="Web Developer" />
+          <Experience 
+            employer="Brownstein Group"
+            employerSite="https://www.brownsteingroup.com/"
+            startDate="Jul. 2015"
+            endDate="Dec. 2015"
+            position="Front End Developer, Contract" />
+          <Experience 
+            employer="Leadnomics"
+            employerSite="https://www.leadnomics.com/"
+            startDate="Jun. 2014"
+            endDate="Aug. 2014"
+            position="Software Engineer Intern" />
+        </div>
+        <div className={styles.educationContainer}>
+          <p className={cn('f-raleway', styles.header)}>Education</p>
+          <Experience 
+              employer="Liberty University"
+              startDate="2013"
+              endDate="2016"
+              position="B.S. in Information Technologies: Web and Mobile Programming" />
+          <Experience 
+              employer="Burlington County College"
+              startDate="2010"
+              endDate="2013"
+              position="A.S. in Computer Science" />
+        </div>
       </InfoSection>
       <SocialLinks showIcons />
       <InfoSection header="Skills" className={cn(styles.infoSection, styles.skillsContainer)}>
