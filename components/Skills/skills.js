@@ -23,10 +23,12 @@ const skillList = [
   'Firebase',
   'MySQL',
   'Git',
-  'Mercurial',
   'CircleCI',
   'Jenkins',
-  'Docker'
+  'Docker',
+  'Terraform',
+  'AWS',
+  'Security'
 ]
 
 export default skillList
